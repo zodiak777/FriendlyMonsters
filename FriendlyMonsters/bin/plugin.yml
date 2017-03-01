@@ -1,0 +1,18 @@
+name: FriendlyMonsters
+version: 0.4
+main: de.lupus7x.fm.FM
+description: Everyone is your Friend!
+author: Lupus7x
+commands:
+  fm:
+    description: Command list of FriendlyMonsters
+    usage: /fm
+    permission: fm.admin
+permissions:
+  fm.*:
+    description: Allows to use all fm commands
+    children:
+      fm.admin: true
+  fm.admin:
+    description: Allows to use some commands
+    default: op

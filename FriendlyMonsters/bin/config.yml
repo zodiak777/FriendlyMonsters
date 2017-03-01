@@ -1,0 +1,46 @@
+# FriendlyMonsters! Let every Monster be your friend!
+Mobs:
+  # If friendly is true, the monster won't attack.
+  friendly:
+    blaze: true
+    cave_spider: true
+    creeper: true
+    ender_dragon: false
+    enderman: true
+    endermite: true
+    ghast: true
+    giant: false
+    guardian: true
+    magma_cube: true
+    ocelot: true
+    pig_zombie: true
+    silverfish: true
+    skeleton: true
+    slime: true
+    spier: true
+    iron_golem: true
+    witch: true
+    wolf: true
+    zombie: true
+    wither: false
+    wither_skull: true
+  # If creeper_explosion is false, the creeper won't explode.
+  creeper_explosion: false
+  # If burn is false, the monsters won't burn in sun.
+  burn:
+    zombie: flase
+    skeleton: false
+Messages:
+  prefix: '&4[FM] '
+  friendly_enable: ' &eis now friendly!'
+  friendly_disable: ' &eis now unfriendly, be carefull!'
+  friendly_usage: '&e /friendly <monster name> to set a monster friendly! Posible monsters: '
+  unfriendly_usage: '&e /unfriendly <monster name> to set a monster unfriendly! Posible monsters: '
+  explosion_enable: '&eCreepers no longer explode!'
+  explosion_disable: '&eCreepers can explode now, cover up!'
+  burn_enable: ' &enow &4burn in sun&e, BBQ time!'
+  burn_disable: ' &eno longer &4burn in sun&e!'
+  burn_already_enable: ' &ealready &4burn in sun&e!'
+  burn_already_disable: ' &edoes not &4burn in sun&e already!'
+  burn_usage: '&e /burn zombie or skeleton to enable burn in sun!'
+  unburn_usage: '&e /unburn zombie or skeleton to disable burn in sun!'
